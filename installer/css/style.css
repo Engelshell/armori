@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(gloriahallelujah.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin */
+@font-face {
+    font-family: 'Short Stack';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(shortstack.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+* {
+    /*font-family: 'Gloria Hallelujah', sans-serif;*/
+    font-family: 'Short Stack', cursive;
+}
+h3 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+h4 {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+p {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+main {
+    padding-left:1em;
+    padding-right:1em;
+    border-left-style: solid;
+    border-width: 0px 6px 3px 6px;
+    border-image: url(bq.svg) 0 6 3 6 stretch stretch;
+    padding-left: 0.5em;
+    border-right-width: 0px;
+}
+.red {
+    color:red;
+}
+.normal {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.gitlink {
+    display:block;
+    margin-left:auto;
+    background:url('Octicons-mark-github.svg') no-repeat center/100%;
+    height:auto;
+    width:40px;
+}
+.discordlink {
+    display:block;
+    background:url('discord-mark-blue.svg') no-repeat center/100%;
+    background-size: 50px 50px;
+    height:50px;
+    width:50px; 
+}
+.flex {
+    display:flex;
+    align-items:center;
+}
+
+button:hover {
+    text-shadow: 0 0 4px rgb(255, 250, 197);
+    border-image: url(button.svg) 6 6 6 6 stretch stretch;
+    
+}
