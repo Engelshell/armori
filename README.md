@@ -10,7 +10,7 @@ Alpha Quality software, there are likely bugs.
 ![installer image](image.png)
 
 ## Download
-Latest release here:
+Latest release: [armori-1.0.8-arm64.dmg](https://github.com/Engelshell/armori/releases/download/v1.0.8-alpha.1/armori-1.0.8-arm64.dmg)
 
 ## Install
 Double click on armori.app and read the page
