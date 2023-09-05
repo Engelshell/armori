@@ -4,9 +4,9 @@
   "description": "Unofficial mod of OMORI to Apple Silicon",
   "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "start": "electron-forge start --verbose",
+    "package": "electron-forge package --verbose",
+    "make": "electron-forge make --verbose"
   },
   "repository": "https://github.com/engelshell/armori",
   "keywords": [
@@ -22,17 +22,17 @@
   "author": "engelshell",
   "license": "MIT-0",
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.4",
-    "@electron-forge/maker-dmg": "^6.0.4",
-    "@electron-forge/maker-zip": "^6.0.4",
-    "@electron/rebuild": "^3.2.9",
-    "electron": "^22.0.0"
+    "@electron-forge/cli": "^6.4.1",
+    "@electron-forge/maker-dmg": "^6.4.1",
+    "@electron-forge/maker-zip": "^6.4.1",
+    "@electron/rebuild": "^3.3.0",
+    "electron": "^26.0.0"
   },
   "dependencies": {
-    "@electron/remote": "^2.0.9",
+    "@electron/remote": "^2.0.11",
     "@node-steam/vdf": "^2.2.0",
-    "electron-log": "^5.0.0-beta.10",
-    "fs-extra": "^11.1.0",
+    "electron-log": "^5.0.0-beta.28",
+    "fs-extra": "^11.1.1",
     "nw.gui": "file:nw.gui",
     "zlib": "^1.0.5"
   }

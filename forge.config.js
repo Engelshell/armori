@@ -2,46 +2,33 @@
 module.exports = {
   //...
   packagerConfig: {
-    icon: "./icon.icns",
+    name: "armori",
+    //steam expects nwjs executable
     executableName: "nwjs",
-    electronVersion: '22.0.0',
+    appCopyright: "MIT-0 MIT No Attribution",
+    icon: "./icon.icns",
+    electronVersion: '26.0.0',
     junk:true,
     overwrite:true,
-    platform:'darwin',
-    arch:'arm64'
+    prune:true,
+    appCategoryType: "public.app-category.games",
+    platform:['darwin'],
+    arch:['arm64']
   },
   makers: [
     {
       name: '@electron-forge/maker-dmg',
-      platforms: [
-        "darwin"
-      ],
-      arch: [
-        'arm64'
-      ],
+      platforms: [ "darwin" ],
+      arch: [ 'arm64' ],
       config: {
-        //steam expects nwjs executable
         //could also symlink
         title: "armori",
         icon: "./icon.icns",
         //background: './assets/dmg-background.png',
-        format: 'ULFO'
+        format: 'ULFO',
+        overwrite:true
       }
     }
-    /*
-    {
-      // Path to the icon to use for the app in the DMG window
-      name: '@electron-forge/maker-zip',
-      platforms: [
-        "darwin"
-      ],
-      config: {
-        icon: "./icon.icns",
-        options: {
-          icon: "./icon.icns"
-        }
-      }
-    }*/
 
   ]
 };
