@@ -15,7 +15,8 @@ Latest release: [armori-1.0.8-arm64.dmg](https://github.com/Engelshell/armori/re
 
 ## Install
 Double click does not work! You must follow this:
-![open image](open.png)
+<img src="/Engelshell/armori/raw/main/open.png" alt="open image" width="800px">
+![open image]()
 Right or two-finger click on armori.app, select 'open'.
 
 ## Support
