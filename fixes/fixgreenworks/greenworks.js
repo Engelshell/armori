@@ -10,7 +10,7 @@ var greenworks;
 var archtypes = {
   'darwin': {
     'x64': 'greenworks-osx64',
-    'arm64': 'greenworks-osxarm64',
+    'arm64': 'greenworks-osx64',
   },
   'win32': {
     'x64': 'greenworks-win64',

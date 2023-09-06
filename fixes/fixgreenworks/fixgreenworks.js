@@ -12,7 +12,7 @@ const path = require('path')
 
 module.exports = async function(paths) {
     console.log("armori: running fixgreenworks");
-    const lib1name = "greenworks-osxarm64.node";
+    const lib1name = "greenworks-osx64.node";
     const file1name = "greenworks.js";
     const origlib1p = path.join(__dirname, lib1name);
     const origfile1p = path.join(__dirname, file1name);
