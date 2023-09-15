@@ -14,7 +14,7 @@ Alpha Quality software, there are likely bugs.
 
 By using this software you agree to the MIT-0 License
 
-Latest release: [armori-1.0.8-arm64.dmg](https://github.com/Engelshell/armori/releases/download/v1.0.8-alpha.1/armori-1.0.8-arm64.dmg)
+Latest release: [armori-1.0.9-arm64.dmg](https://github.com/Engelshell/armori/releases/download/v1.0.9-alpha/armori-1.0.9-arm64.dmg)
 
 
 ## Install
