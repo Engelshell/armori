@@ -31,8 +31,6 @@ Uninstall and Reinstall OMORI through steam to remove this mod.
 
 Post an issue here on Github if you run into issues.
 
-[Discord Link](https://discord.gg/bJYqHRAg7A)
-
 ## Mods
 Does not currently support oneloader. Oneloader does its own modifications and expects nwjs.
 
