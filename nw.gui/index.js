@@ -21,19 +21,22 @@ class window {
     var window = electron.getCurrentWindow();
     return window.webContents.isDevToolsOpened();
   }
-  moveBy(x, y) {
+    moveBy(x, y) {
+    let [x1, y1] = [x || 0, y || 0]
     var window = electron.getCurrentWindow();
-    let [x1, y1] = window.getPosition();
-    window.setPosition(x1+x, y1+y);
+    let [x2, y2] = window.getPosition();
+    window.setPosition(x2+x1, y2+y1);
   }
   resizeBy(w, h) {
+    let [w1, h1] = [w || 0, h || 0]
     var window = electron.getCurrentWindow();
-    let [w1, h1] = window.getSize();
-    window.setSize(w1+w, h1+h);
+    let [w2, h2] = window.getSize();
+    window.setSize(w2+w1, h2+h1);
   }
   moveTo(x, y) {
+    let [x1, y1] = [x || 0, y || 0]
     var window = electron.getCurrentWindow();
-    window.setPosition(x, y);
+    window.setPosition(x1, y1);
   }
   enterFullscreen() {
     var window = electron.getCurrentWindow();
