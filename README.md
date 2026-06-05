@@ -1,3 +1,6 @@
+# This is out of date at this time.
+
+
 #  armori - Alpha v1.0.9
 ## Unofficial mod to OMORI for Apple Silicon Macs
 
